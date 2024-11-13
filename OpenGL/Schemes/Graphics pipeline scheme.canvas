@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"6aebb0b367d1c75f","type":"text","text":"#### Vertex shader","x":-460,"y":-260,"width":280,"height":60,"color":"6"},
+		{"id":"20952a182b3f73c6","type":"text","text":"#### Geometry shader","x":-40,"y":-260,"width":340,"height":60,"color":"6"},
+		{"id":"06b20d3e3b9b6e5c","type":"text","text":"#### Vertex Data","x":-890,"y":-260,"width":250,"height":60,"color":"4"},
+		{"id":"af52c532d230f263","type":"text","text":"#### Shape assembly","x":-960,"y":-20,"width":350,"height":60},
+		{"id":"6bf871edc0c576a5","type":"text","text":"#### Rasterization","x":-460,"y":-20,"width":300,"height":60},
+		{"id":"e05b1a908ed4bc32","type":"text","text":"#### Fragment shader","x":-40,"y":-20,"width":340,"height":60,"color":"6"},
+		{"id":"1df061c0fae65f29","type":"text","text":"#### Tests and blending","x":440,"y":-20,"width":360,"height":60},
+		{"id":"b63144c5661b7056","x":-460,"y":-480,"width":420,"height":60,"color":"6","type":"text","text":"*Purple stages are programmable*"}
+	],
+	"edges":[
+		{"id":"f61bf014e7cad648","fromNode":"06b20d3e3b9b6e5c","fromSide":"right","toNode":"6aebb0b367d1c75f","toSide":"left"},
+		{"id":"a4b8fcca3c30decd","fromNode":"6aebb0b367d1c75f","fromSide":"right","toNode":"20952a182b3f73c6","toSide":"left"},
+		{"id":"53f6ea5e204a5d2d","fromNode":"20952a182b3f73c6","fromSide":"bottom","toNode":"af52c532d230f263","toSide":"top"},
+		{"id":"46db2874971872be","fromNode":"af52c532d230f263","fromSide":"right","toNode":"6bf871edc0c576a5","toSide":"left"},
+		{"id":"245c64a6187c8dd3","fromNode":"6bf871edc0c576a5","fromSide":"right","toNode":"e05b1a908ed4bc32","toSide":"left"},
+		{"id":"fb7e8c23e18bedd1","fromNode":"e05b1a908ed4bc32","fromSide":"right","toNode":"1df061c0fae65f29","toSide":"left"}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"8a8eaf6f7b2d3bdf","type":"file","file":"OpenGL/API/glClearColor.md","x":-420,"y":-80,"width":400,"height":400},
+		{"id":"a9490667c5ea8cac","type":"file","file":"OpenGL/API/glClear.md","x":260,"y":-80,"width":400,"height":400},
+		{"id":"a5083d80aee22acf","type":"text","text":"## Render Loop","x":-920,"y":75,"width":320,"height":90,"color":"6"},
+		{"id":"cac49fce8a68dba3","type":"text","text":"##### This scheme shows steps to draw a solid color on the screen using OpenGL.","x":-510,"y":-320,"width":980,"height":120,"color":"6"}
+	],
+	"edges":[
+		{"id":"764f4cd26da3a1f4","fromNode":"a5083d80aee22acf","fromSide":"right","toNode":"8a8eaf6f7b2d3bdf","toSide":"left"},
+		{"id":"fa6db82fd82bb14a","fromNode":"8a8eaf6f7b2d3bdf","fromSide":"right","toNode":"a9490667c5ea8cac","toSide":"left"}
+	]
+}
